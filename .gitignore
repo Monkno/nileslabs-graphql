@@ -1,0 +1,7 @@
+node_modules/
+target/
+artifacts/
+.env
+.env.*
+!.env.example
+*.log

@@ -1,0 +1,5 @@
+/mvnw text eol=lf linguist-generated=true
+/mvnw.cmd text eol=crlf linguist-generated=true
+*.kt text eol=lf
+*.graphql text eol=lf
+*.ps1 text eol=lf

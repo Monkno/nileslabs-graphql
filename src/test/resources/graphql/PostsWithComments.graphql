@@ -1,0 +1,6 @@
+query PostsWithComments($limit: Int!, $commentLimit: Int!) {
+  posts(_limit: $limit) {
+    id title user { id name }
+    comments(_limit: $commentLimit) { id body }
+  }
+}
