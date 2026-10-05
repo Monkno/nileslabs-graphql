@@ -53,3 +53,5 @@ try {
     }
     Write-Host 'Demo completed without Gatling Cloud credits. Evidence: artifacts/demo/ and target/gatling/.'
 } finally { Pop-Location }
+
+exit 0
